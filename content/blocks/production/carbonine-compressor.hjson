@@ -1,0 +1,22 @@
+name: Carbonine Compressor
+description: Compresses pure graphite to carbonine.
+type: GenericCrafter
+craftTime: 80
+size: 3
+outputItem: carbonine/2
+
+consumes: {
+    items: {
+        items: [
+            graphite/3
+        ]
+    }
+}
+
+requirements: [
+    graphite/35
+    silicon/25
+    titanium/65
+]
+
+research: particle-accelerator
