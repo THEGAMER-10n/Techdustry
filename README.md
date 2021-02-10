@@ -1,7 +1,7 @@
 # Techdustry-beta
 
 
-## This modis still unfinished.
+## This mod is still unfinished.
 
 * Missing sprites
 * Unfinished sprites
