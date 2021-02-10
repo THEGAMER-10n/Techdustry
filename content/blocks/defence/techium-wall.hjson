@@ -1,7 +1,7 @@
 name: Techium Wall
 description: A wall made up of techium. Stronger than titanium.
 type: Wall
-health: 520
+health: 550
 
 requirements: [
     techium/6

@@ -1,7 +1,7 @@
 name: Large Techium Wall
 description: A large wall made up of techium. Stronger than titanium.
 type: Wall
-health: 2080
+health: 2130
 size: 2
 
 requirements: [
