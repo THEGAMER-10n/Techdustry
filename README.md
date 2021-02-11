@@ -30,7 +30,7 @@ No sprites at all:
 * electrimite
 * techium
 
-** Looking for a person who is a better sprite maker **
+__Looking for a person who is a better sprite maker__
 
 DM me on discord if you want to do it.
 
