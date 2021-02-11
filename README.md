@@ -67,4 +67,5 @@ DM me on discord if you want to do it.
 Made by THEGAMER_10n
 
 discord: THEGAMER_10n#0717 (I stay at #modding-general at the discord.)
+
 reddit: THEGAMER_10n (I am not accepting pings at this platform though.)
