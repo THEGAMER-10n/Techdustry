@@ -1,7 +1,7 @@
 name: "techdustry"
-displayName: "Techdustry Beta"
+displayName: "Techdustry-Beta"
 description: "TO-DO"
 author: THEGAMER_10n
-version: "0.0b-beta"
-minGameVersion: "114"
+version: "0.0c-beta"
+minGameVersion: "123.1"
 hidden: false
