@@ -21,7 +21,7 @@ ammoTypes: {
         type: BasicBulletType
         damage: 500
         pierce: true
-        pierceCap: 2
+        pierceCap: 1
         hitSize: 2
         speed: 20
         lifetime: 10
@@ -31,7 +31,7 @@ ammoTypes: {
         type: BasicBulletType
         damage: 450
         pierce: true
-        pierceCap: 2
+        pierceCap: 1
         hitSize: 5
         speed: 20
         lifetime: 10

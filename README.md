@@ -1,4 +1,4 @@
-# Techdustry-beta
+# Techdustry
 
 
 ## This mod is still unfinished.
@@ -9,37 +9,39 @@
 
 ## Current version:
 
-0.0c-Beta
+0.0d-Beta
 
 ### Sprites
 
 Only the following Items have the final sprites: 
-* spark
-* bolt
-* particle accelerator(Might be updated soon)
+* Spark
+* Bolt
+* Particle accelerator(Final)
+* Carbonine Compressor
 
 Unfinished sprites: 
 * Techium Wall
 * Large Techium Wall
 * Electrimite Node
+* Electrium Forge
+* Techium
 
 No sprites at all:
-* electrium forge
-* carbonine compressor
-* carbonine
-* electrimite
-* techium
+* Carbonine
+* Electrimite
 
 __Looking for a person who is a better sprite maker__
 
 DM me on discord if you want to do it.
 
-### The content coming after I finish the first sprites.
+----------------
+
+### __The content coming after I finish the first sprites.__
 
 #### Powdered Titanium
 * Used as ammunition.
     * Creates freezing effect.
-    * Can be used to create cyrofluif
+    * Can be used to create cyrofluid
 * Of course, there should be a 2x2 factory for pulverizing titanium.
 
 #### Titanium Pulveriser
@@ -58,6 +60,8 @@ DM me on discord if you want to do it.
     * Needs Powdered Titanium as a coolant.
     * Same damage as the foreshadow.
     * Very expensive.
+
+### Check my TO-DO list.
 
 ###### Probably more will come to my head later on after the beta.
 

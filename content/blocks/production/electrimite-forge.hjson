@@ -1,11 +1,9 @@
 name: Electrimite Forge
 description: Fuses atoms of titanium, techium, lead, and copper to produce electrimite.
 type: GenericSmelter
-
+craftTime: 140
 size: 3
-
 outputItem: electrimite/1
-
 consumes: {
     power: 50
     items: {

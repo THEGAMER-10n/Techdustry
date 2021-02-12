@@ -2,13 +2,14 @@ name: Particle Accelerator
 description: Accelerates lead particles near to the speed of light to produce techium.
 type: GenericSmelter
 size: 3
-outputItem: techium/1
-
-consume:{
-    power: 35
+craftTime: 120
+outputItem: techium/2
+consumes:{
+    power: 50
     items: {
         items: [
-            lead/2
+            lead/5
+            copper/2
         ]
     }
 }
@@ -16,6 +17,7 @@ consume:{
 requirements: [
     lead/240
     silicon/150
+    copper/245
 ]
 
 research: silicon-smelter
