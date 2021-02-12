@@ -1,0 +1,8 @@
+name: "techdustry"
+displayName: "Techdustry"
+//Removed the beta word. H
+description: "TO-DO"
+author: THEGAMER_10n
+version: "0.0d-beta"
+minGameVersion: "123.1"
+hidden: false
