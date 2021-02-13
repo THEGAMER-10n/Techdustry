@@ -4,7 +4,6 @@ type: GenericCrafter
 craftTime: 80
 size: 3
 outputItem: carbonine/2
-
 consumes: {
     items: {
         items: [

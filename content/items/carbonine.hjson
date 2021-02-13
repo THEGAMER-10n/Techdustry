@@ -1,6 +1,5 @@
 name: Carbonine
 description: A strong material. Highly "noble" in terms of chemical reactivity.
-
 reasearch: {
     parent: techium
     requirements: [

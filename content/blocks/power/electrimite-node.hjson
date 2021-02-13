@@ -4,7 +4,7 @@ type: PowerNode
 laserRange: 15
 maxNodes: 25
 health: 150
-
+size: 1
 requirements: [
     electrimite/10
     titanium/5

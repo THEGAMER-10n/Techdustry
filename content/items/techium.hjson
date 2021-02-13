@@ -1,7 +1,6 @@
 name: Techium
 description: An unstable material formed by accelerating lead particles close to the speed of light.
 radioactivity: 0.75
-
 research: {
     parent: titanium
     requirements: [

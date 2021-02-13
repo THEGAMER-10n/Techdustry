@@ -1,22 +1,18 @@
-name: "Bident"
-description: "An upgraded version of the spear."
+name: "Bolt"
+description: "An upgraded version of the spark."
 type: ItemTurret
-
 health: 1250
 range: 320
 inaccuracy: 0
 targetAir: false
 targetGround: true
-
 recoil: 5
 shootCone: 12
 shootShake: 0.1
-
 reloadTime: 300
 maxAmmo: 10
 ammoPerShot: 2
 size: 2
-
 ammoTypes: {
     graphite: {
         type: BasicBulletType
@@ -45,5 +41,4 @@ requirements: [
     lead/450
     graphite/355
 ]
-
-research: spear
+research: spark
