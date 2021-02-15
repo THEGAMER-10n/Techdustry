@@ -1,0 +1,23 @@
+name: Techium
+description: An unstable material formed by accelerating lead particles close to the speed of light.
+radioactivity: 0.75
+research: {
+    parent: titanium
+    requirements: [
+        lead/6000
+        copper/8000
+        silicon/4500
+        titanium/3000
+    ]
+name: Techium
+description: An unstable material formed by accelerating lead particles close to the speed of light.
+radioactivity: 0.75
+research: {
+    parent: titanium
+    requirements: [
+        lead/6000
+        copper/8000
+        silicon/4500
+        titanium/3000
+    ]
+}
