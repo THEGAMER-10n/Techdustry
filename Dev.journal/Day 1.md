@@ -20,3 +20,7 @@ I am planning to make techium as an unpurified ore. It needs to be processed yad
 Made the forms of techium.
 
 Most of which are explosive so h...
+
+## 9:19
+
+So far this is it for the day, started making the techium weaver.
