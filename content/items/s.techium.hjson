@@ -1,0 +1,12 @@
+name: Solid techium
+description: A more solid version of the techium fiber. More chemically inert.
+hardness: 6
+
+research: {
+    parent: f.techium
+    requirements: [
+        f.techium/12000
+        phase-fabric/15400
+        surge-alloy/8500
+    ]
+}
