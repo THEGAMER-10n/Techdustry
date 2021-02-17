@@ -6,4 +6,12 @@ requirements: [
     techium/6
     titanium/1
 ]
+name: Techium Wall
+description: A wall made up of techium. Stronger than titanium.
+type: Wall
+health: 550
+requirements: [
+    techium/6
+    titanium/1
+]
 research: titanium-wall

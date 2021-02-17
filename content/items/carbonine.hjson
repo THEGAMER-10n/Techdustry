@@ -8,4 +8,14 @@ reasearch: {
         silicon/5455
         titanium/4670
     ]
+name: Carbonine
+description: A strong material. Highly "noble" in terms of chemical reactivity.
+reasearch: {
+    parent: techium
+    requirements: [
+        coal/15000
+        techium/6500
+        silicon/5455
+        titanium/4670
+    ]
 }

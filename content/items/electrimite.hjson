@@ -10,4 +10,16 @@ research: {
         titanium/4575
         silicon/3450
     ]
+name: Electrimite
+description: A highly conductive material. If it hits something in a high velocity, it will significantly slow down and melt metals.
+explosiveness: 0.50
+research: {
+    parent: techium
+    requirements: [
+        techium/4500
+        lead/1400
+        copper/3475
+        titanium/4575
+        silicon/3450
+    ]
 }
