@@ -3,13 +3,6 @@ displayName: "Techdustry"
 //Removed the beta word. H
 description: "TO-DO"
 author: THEGAMER_10n
-version: "0.0d-beta"
-minGameVersion: "123.1"
-name: "techdustry"
-displayName: "Techdustry"
-//Removed the beta word. H
-description: "TO-DO"
-author: THEGAMER_10n
-version: "0.0d-beta"
+version: "0.1a-beta"
 minGameVersion: "123.1"
 hidden: false
