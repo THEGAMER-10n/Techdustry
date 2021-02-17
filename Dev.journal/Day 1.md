@@ -15,4 +15,8 @@ I am planning to make techium as an unpurified ore. It needs to be processed yad
     * More content means the hated spriting
     * Might need to use js for some features.
 
-## 
+## 8:57
+
+Made the forms of techium.
+
+Most of which are explosive so h...
