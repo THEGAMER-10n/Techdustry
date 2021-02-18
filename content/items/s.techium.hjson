@@ -1,5 +1,5 @@
-name: Solid techium
-description: A more solid version of the techium fiber. More chemically inert.
+name: Techium fiberglass
+description: A solid version of the techium fabric. Chemically inert, yet, it is extremely hard.
 hardness: 6
 
 research: {
@@ -8,5 +8,8 @@ research: {
         f.techium/12000
         phase-fabric/15400
         surge-alloy/8500
+        techium/20000
+        p.techium/18598
+        metaglass/300000
     ]
 }

@@ -1,11 +1,11 @@
-name: Refined Techium
-description: A more pure version of techium. Not as radioactive and hard as the unpure counterpart.
+name: Pure Techium
+description: The purified version of techium. Not as radioactive and hard as the unpure counterpart.
 hardness: 2
 explosiveness: 0.95
 radioactivity: 0.65
 
 research: {
-    parent: u.techium
+    parent: techium
     requirements: [
         u.techium/8670
         lead/6450

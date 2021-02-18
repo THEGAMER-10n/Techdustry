@@ -1,13 +1,14 @@
-name: Techium fiber
-description: A fabricated version of techium. Retains it's hardness, but is a lot more chemically inert.
-hardness: 5
+name: Techium fabric
+description: A fabricated version of techium. Retains it's chemical properties, but is a lot more softer and lighter.
+hardness: 0
 radioactivity: 0.15
 explosiveness: 0.05
 
 research: {
-    parent: u.techium
+    parent: techium
     requiremnts: [
-        u.techium/5670
+        techium/5670
+        p.techium/4760
         phase-fabric/10560
         lead/9750
         copper/8705

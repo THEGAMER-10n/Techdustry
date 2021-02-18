@@ -1,0 +1,22 @@
+name: Particle Collider
+description: Accelerates different particles and collides them together to make techium.
+
+type: GenericSmelter
+outputItem: techium/1
+
+consumes: {
+    items: {
+        items: [
+            lead/2
+            copper/3
+            titanium/1
+        ]
+    }
+    power: 45
+}
+
+health: 1300
+baseExplosiveness: 0.5
+size: 3
+
+research: silicon-smelter
