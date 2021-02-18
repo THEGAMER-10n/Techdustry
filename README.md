@@ -1,5 +1,5 @@
 # Techdustry
-__Current version__: 0.1b-beta
+__Current version__: 0.1c-beta
 
 ## Total overhaul of the mod.
 
