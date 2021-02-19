@@ -12,6 +12,11 @@ consumes: {
     }
     power: 45
 }
+requirements: [
+    titanium/300
+    copper/495
+    lead/630
+]
 health: 1300
 size: 3
 research: silicon-smelter
