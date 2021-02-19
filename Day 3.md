@@ -18,3 +18,7 @@ My first turret in this mod. It's a js turret so probably thinking of ideas.
 ## 16:16
 
 Added some turret scripts(trial).
+
+## 16:44
+
+Changed some stuff
