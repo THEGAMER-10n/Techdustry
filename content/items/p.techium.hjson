@@ -7,7 +7,7 @@ radioactivity: 0.65
 research: {
     parent: techium
     requirements: [
-        u.techium/8670
+        techium/8670
         lead/6450
         copper/10750
         thorium/9770

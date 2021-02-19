@@ -7,8 +7,8 @@ outputItem: techium/1
 consumes: {
     items: {
         items: [
-            lead/2
-            copper/3
+            lead/1
+            copper/2
             titanium/1
         ]
     }

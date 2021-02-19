@@ -3,7 +3,7 @@
 let chooser = Math.round(Math.random()*2);
 
 /*status effects*/
-//shortCircuit code
+//shortCircuit
 const shortCircuit1 = extend(StatusEffect, 'shortCircuit1',{
     damage = Math.round(Math.random()*10),
     speedMultiplier = Math.round(Math.random()*10),
@@ -15,7 +15,7 @@ const shortCircuit2 = extend(StatusEffect, 'shortCircuit2',{
     armorMultiplier = Math.round(Math.random()*10),
 });
 const shortCircuit3 = extend(StatusEffect, 'shortCircuit3',{
-    damage = 999999999999999999999999999999999999999999
+    damage = 150
 })
 if(chooser === 1){
     let shortCircuit = shortCircuit1
