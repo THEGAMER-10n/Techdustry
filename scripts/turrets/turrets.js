@@ -1,4 +1,6 @@
 //Ok, first js turrets. h
+//imports
+import * as ammo from 'ammo.js'
 // The spark-class turrets
 const spark = extend(ItemTurretType,'fireSide',{
     health = 2300,
@@ -15,4 +17,4 @@ const bolt = extend(ItemTurretType,'bolt',{
     size = 4,
     reloadTime = 120,
     rotatespeed = 2.5
-})
+});

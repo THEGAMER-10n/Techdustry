@@ -1,7 +1,7 @@
 //Calculations
 
-//Export statusEffects
-import * as effects from '/scripts/statusEffects/statusEffects1.js'
+//import statusEffects
+import * as effects from '/statusEffects/statusEffects1.js'
 //Bullet ammo's
 const s_techium = extend(BasicBulletType, 's-techium',{
     damage : 750,
