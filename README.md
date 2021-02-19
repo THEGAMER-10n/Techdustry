@@ -1,24 +1,16 @@
 # Techdustry
-__Current version__: 0.1c-beta
+__Current version__: 0.1d-beta
 
-## Total overhaul of the mod.
+## What is this mod?
+This mod adds different technologies to the game, this expands the mid-game arsenal of turrets and materials. This also adds extensive change on end-game progress and a coming campaign addition.
 
-### Balanced techium and turned it to an Mid-/End-Game material instead.
+## Content:
+Unfortunately, this mod will not be compatible with IOS since it has js content.
 
-The old techium is quite unbalanced because of the weapons and techs it can make.
+### Techium
 
-By turning it into a sort of overlap between mid-game(Between the silicon and titanium tech) and end-game(Between thorium and surge-alloy tech) technologies, I think thet will balance it out.
+* Everything on the mod begins with this material. It will be refined, and change to much useful items.
 
-### Totally changing the turrets, contents and sprites.
+### Turrets
 
-The old "sniper" turrets is very unbalanced when they reach the 3rd and 4th upgrades.
-
-The sprites are awful.
-
-Many contents are very unbalanced.
-
-### Changed the TO-DO with a dev journal.
-
-Yes, This is more better than a one-page TO-DO list
-
-All contents in this is in a separate folder.
+* Well, they are still about to be fully implemented.

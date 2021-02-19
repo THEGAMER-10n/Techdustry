@@ -20,3 +20,5 @@ baseExplosiveness: 0.5
 size: 3
 
 research: silicon-smelter
+
+category: crafting

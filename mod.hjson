@@ -1,8 +1,9 @@
+//do not modify the following
 name: "techdustry"
 displayName: "Techdustry"
-//Removed the beta word. H
 description: "TO-DO"
-author: THEGAMER_10n
-version: "0.1c-beta"
-minGameVersion: "123.1"
+author: "THEGAMER_10n"
+// can be modified
+version: "0.1d-beta"
+minGameVersion: "114"
 hidden: false

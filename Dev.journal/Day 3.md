@@ -11,3 +11,10 @@ forgot changing some stuff so h
 
 issue fixed
 
+## 14:25
+
+My first turret in this mod. It's a js turret so probably thinking of ideas.
+
+## 16:16
+
+Added some turret scripts(trial).
