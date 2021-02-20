@@ -5,5 +5,5 @@ description: "TO-DO"
 author: "THEGAMER_10n"
 // can be modified
 version: "0.1d-beta"
-minGameVersion: "125"
+minGameVersion: "114"
 hidden: false

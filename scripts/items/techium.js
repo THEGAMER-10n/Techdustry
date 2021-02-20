@@ -1,3 +1,7 @@
 const techium = Item("techium");
-techium.name('Techium');
-techium.description('TO-DO')
+
+techium.localizedName = "Techium"
+techium.description = "The raw form of all techium technologies. Highly explosive.";
+techium.radioactivity = 0.65;
+techium.explosiveness = 1;
+techium.charge = 0.75;
