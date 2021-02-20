@@ -20,3 +20,4 @@ const bolt = extend(ItemTurretType,'bolt',{
     reloadTime : 120,
     rotatespeed : 2.5,
 });
+bolt.requirements = itemStack(Items.copper,1200,Items.lead,1750,Items.titanium,2450,Items.techium,1000);
