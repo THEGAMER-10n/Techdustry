@@ -8,4 +8,4 @@ techium.radioactivity = 0.65;
 techium.explosiveness = 1;
 techium.charge = 0.75;
 
-TechTree.TechNode(Block.coreShard,techium,ItemStack.with(Item.copper,1))
+TechTree.TechNode(techium,ItemStack.with(Item.copper,1),Objectives.Research(Block.coreShard))
