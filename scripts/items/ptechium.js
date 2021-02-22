@@ -1,2 +1,2 @@
-/* Nothing
-*/
+//imports
+require("scripts/techTree")

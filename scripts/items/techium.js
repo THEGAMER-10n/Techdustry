@@ -1,5 +1,5 @@
 //imports
-require("scripts/techTree")
+let research = require("scripts/research")
 //------------
 const techium = Item("techium");
 
@@ -12,4 +12,4 @@ techium.charge = 0.75;
 
 techium.color = Color.valueOf(" #88A7B8")
 
-node(Blocks.coreShard,techium,ItemStack.with(Items.copper,1));
+research.researchRequirement(Blocks.coreShard,techium,ItemStack.with(Items.copper,1));
