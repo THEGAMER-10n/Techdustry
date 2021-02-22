@@ -1,4 +1,6 @@
-
+//imports
+require("scripts/techTree")
+//------------
 const techium = Item("techium");
 
 techium.localizedName = "Techium"
@@ -8,4 +10,6 @@ techium.radioactivity = 0.65;
 techium.explosiveness = 1;
 techium.charge = 0.75;
 
-TechTree.TechNode(techium,ItemStack.with(Item.copper,1),Seq.with(Objective.Research(Block.coreShard))
+techium.color = Color.valueOf(" #88A7B8")
+
+node(Blocks.coreShard,techium,ItemStack.with(Items.copper,1));
