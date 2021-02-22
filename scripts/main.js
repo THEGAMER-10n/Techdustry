@@ -1,2 +1,5 @@
 //Items
-require("items/techium");
+require("items");
+//blocks
+//production
+//turrets
