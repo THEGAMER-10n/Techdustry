@@ -1,2 +1,0 @@
-//imports
-require("scripts/techTree")

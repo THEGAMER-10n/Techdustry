@@ -12,4 +12,4 @@ techium.charge = 0.75;
 
 techium.color = Color.valueOf(" #88A7B8")
 
-research.researchRequirement(Blocks.coreShard,techium,ItemStack.with(Items.copper,1));
+research.research1(Blocks.coreShard,techium,ItemStack.with(Items.copper,1));
