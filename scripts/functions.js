@@ -1,14 +1,8 @@
-module.exports = {	
-    name: null, 
-    techNode(parent2, block, requirements){
-        var parent = TechTree.all.find(node => node.content == parent2);
-        var node = new TechTree.TechNode(parent, block, requirements);
-	}, 
-	
-    node(parent2, block, requirements, objectives){
-	    var parent = TechTree.all.find(node => node.content == parent2);
-	    var node = new TechTree.TechNode(parent, block, requirements);
-	
-	    node.objectives.add(objectives);
-	}, 
-}
+const node = (parent, contentType, requirements, objectives) => {
+    const tnode = new TechTree.TechNode(TechTree.get(parent), contentType, requirements != null ? requirements : contentType.researchRequirements());
+    let used = new ObjectSet();
+    
+    if(objectives != null){
+        tnode.objectives.addAll(objectives);
+    };
+};
