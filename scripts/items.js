@@ -1,5 +1,5 @@
 //imports
-let r = require("scripts/functions")
+let f = require("scripts/functions")
 //---------------------------------------------------------------------------
 const techium = Item("techium");
 
@@ -12,6 +12,6 @@ techium.charge = 0.75;
 
 techium.color = Color.valueOf("#88A7B8")
 
-r.techNode(Blocks.coreShard,techium,ItemStack.with(
+f.techNode(Blocks.coreShard,techium,ItemStack.with(
     Item.copper,1
 ));
