@@ -1,3 +1,4 @@
 # Version 0.1d
 
-Another different-ish change to the mod. I am turning the mod to a full javascript.
+V0.2a is coming soon. Almost finished my js of all my Items.
+Next up, blocks.

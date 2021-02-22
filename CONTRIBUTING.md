@@ -1,18 +1,5 @@
 # Contributing:
 
-## Author:
-__THEGAMER-10n__
-
-discord: THEGAMER_10n#0717
-
-reddit: THEGAMER_10n
-
-
-## hjson:
-
-__Currently none__
-
-
-## Sprites:
-
-__Currently none__
+Made by: __THEGAMER_10n__
+* Reddit : THEGAMER_10n
+* Discord : THEGAMER_10n#0717

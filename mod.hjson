@@ -1,9 +1,9 @@
 //do not modify the following
 name: "techdustry"
 displayName: "Techdustry"
-description: "TO-DO"
+description: "This mod adds specal additions in terms of technologies. Mod is still unfinished yet the entire mod is already planned inside my head."
 author: "THEGAMER_10n"
 // can be modified
 version: "0.1d-beta"
-minGameVersion: "114"
+minGameVersion: "116"
 hidden: false
