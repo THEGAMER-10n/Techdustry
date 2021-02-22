@@ -13,5 +13,5 @@ techium.charge = 0.75;
 techium.color = Color.valueOf("#88A7B8")
 
 f.techNode(Blocks.coreShard,techium,ItemStack.with(
-    Item.copper,1
+    Items.copper,1
 ));
