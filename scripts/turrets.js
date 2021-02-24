@@ -1,5 +1,5 @@
 //imports
-let item = require("scripts/items");
+let item = require("items");
 let a = require("ammo");
 
 //the actual turret
