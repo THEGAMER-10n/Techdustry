@@ -1,0 +1,11 @@
+name: Kronos
+description: An advanced laser/rail turret.
+
+requirements: [
+    titanium/750
+    thorium/467
+    silicon/1000
+    techium/700
+    pTechium/780
+    fTechium/300
+]

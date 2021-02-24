@@ -1,0 +1,14 @@
+name: Techium fabric
+description: A light and flexible material, yet durable and is an insulator.
+
+radioactivity: 1
+charge: 0.5
+
+research: {
+    parent: pTechium
+    requirements: [
+        pTechium/45000000
+        techium/80750000
+        phase-fabric/750000000
+    ]
+}

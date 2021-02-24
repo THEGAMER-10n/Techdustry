@@ -1,0 +1,16 @@
+name: Techium fiberglass
+description: The most developed form of techium.
+
+charge: 2
+radioactivity: 0.35
+
+research: {
+    parent: fTechium
+    requirements: [
+        fTechium/3500000000
+        metaglass/7000000000
+        lead/9500000000
+        thorium/45000000
+        surge-alloy/2400000
+    ]
+}

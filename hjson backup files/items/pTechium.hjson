@@ -1,0 +1,16 @@
+name: Pure techium
+description: The pure form of techium.
+
+radioactivity: 0.50
+charge: 1
+explosiveness: 0.25
+
+research: {
+    parent: techium
+    requirements: [
+        techium/1340000
+        silicon/2340000
+        titanium/7650000
+        lead/3450000
+    ]
+}
