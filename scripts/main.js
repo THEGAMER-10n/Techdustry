@@ -1,6 +1,5 @@
 let script = Seq.with(
-    "turrets/kronos",
-    "items",
+    "turrets/kronos"
 );
 
 script.each(scripts => {

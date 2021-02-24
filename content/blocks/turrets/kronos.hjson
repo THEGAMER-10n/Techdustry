@@ -1,6 +1,16 @@
 name: Kronos
 description: An advanced laser/rail turret.
 
+size: 4
+range: 520
+recoil: 5
+restitution: 0.1
+health: 2370
+maxAmmo: 10
+ammoPerShot: 2
+targetAir: true
+targetGround: true
+
 requirements: [
     titanium/750
     thorium/467
