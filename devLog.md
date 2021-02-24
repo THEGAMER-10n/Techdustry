@@ -1,4 +1,6 @@
 # Version 0.1d
 
-V0.2a is coming soon. Almost finished my js of all my Items.
-Next up, blocks.
+I am totally rewriting the mod...
+Instead of hjson and js, Imma do js-pure mod.
+
+Maybe finished after my birthday...
