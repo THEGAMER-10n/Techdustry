@@ -26,7 +26,7 @@ const kronos = extend(ItemTurret,"kronos",{
     ),
     category: Category.turret
 });
-kronos.ammo(
+kronos.ammoTypes(
     item.techium,a.kronosTechium,
     item.pTechium,a.kronosPureTechium,
     Items.surgeAlloy,a.kronosSurge
