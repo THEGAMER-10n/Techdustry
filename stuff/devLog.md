@@ -1,6 +1,0 @@
-# Version 0.1d
-
-I am totally rewriting the mod...
-Instead of hjson and js, Imma do js-pure mod.
-
-Maybe finished after my birthday...

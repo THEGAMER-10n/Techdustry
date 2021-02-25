@@ -1,24 +1,21 @@
-//imports
+//Here we go again.
 
-//shortCircuit
-const shortCircuit = extend(StatusEffect,"shortCircuit",{
+const shortCircuit = extend(statusEffect,"shortCircuit",{
     update(unit,time){
-        if(unit.health >= 5000){
+        if(Math.random > 0.85){
             if(time > 10){
-                this.damage = unit.health*0.1
-                this.speedMultiplier = unit.healthf()*0.1
+                if(time > 5){
+                    this.damage = 10
+                }else{
+                    this.damage = 5
+                }
             }else{
-                this.damage = 500
+                this.damage = unit.health*0.1
+                this.armorMultiplier = 1.5
             }
         }else{
-            if(unit.speed > 10){
-                this.speedMultiplier = 0.5
-            }else{
-                if(unit.health > 700){
-                    this.damage = Math.round(Math.random()*15);
-                }
-            }
-            this.damage = 10
+            this.damage = unit.health*0.05
+            this.armorMultiplier = 0.75
         }
     }
-})
+}); //just, don't

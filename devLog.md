@@ -1,0 +1,3 @@
+# Version 0.1d
+
+scratch the pure js Idea off...

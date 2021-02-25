@@ -1,0 +1,29 @@
+name: kronos
+description: A 4 by 4 turret that deals high damage to enemies.
+
+health: 2035
+range: 520
+size: 4
+maxAmmo: 10
+ammoPerShot: 2
+recoil: 5
+restitution: 0.1
+reloadTime: 300
+rotateSpeed: 1.5
+
+requirements: [
+    silicon/960
+    titanium/875
+    lead/1670
+    thorium/650
+    plastanium/890
+    phase-fabric/760
+    surge-alloy/370
+    techium/2000
+    pTechium/1967
+    sTechium/120
+    fTechium/340
+]
+
+research: fuse
+category: turret
