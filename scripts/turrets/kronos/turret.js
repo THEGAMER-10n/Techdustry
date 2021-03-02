@@ -7,7 +7,7 @@ const kronos = extend(ItemTurret,"kronos",{
     localizedName: "Kronos",
     description: "TO-DO",
     health: 2045,
-    range: calc.rangeCalc(60),
+    range: 480,
     size: 4,
     reloadSpeed: 120,
     rotateSpeed: 2,
