@@ -1,12 +1,13 @@
 //imports
 var calc = require("calculations");
 var ammo = require("turrets/kronos/kammo");
+var items = require("items")
 //the turret
 const kronos = extend(ItemTurret,"kronos",{
     localizedName: "Kronos",
     description: "TO-DO",
     health: 2045,
-    range: 400,
+    range: calc.rangeCalc(60),
     size: 4,
     reloadSpeed: 120,
     rotateSpeed: 2,
@@ -14,11 +15,12 @@ const kronos = extend(ItemTurret,"kronos",{
     recoilAmount: 8,
     restitution: 0.002,
     buildVisibility: BuildVisibility.shown,
-    requirements: ItemStack.with(Items.copper,999999999),
+    requirements: ItemStack.with(Items.copper),
     category: Category.turret,
-    shots: 1,
-    shootEffect: Fx.none,
-    ammoUseEffect: Fx.none,
-    smokeEffect: Fx.none
+    maxAmmo: 10,
+    ammoPerShot: 2
 });
-//I'm still gonna implement ammos only l8er
+//ammo
+kronos.ammo = ItemStack.with(
+    items.techium,ammo.techium
+)
