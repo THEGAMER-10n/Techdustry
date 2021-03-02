@@ -9,7 +9,7 @@ const kronos = extend(ItemTurret,"kronos",{
     range: 400,
     size: 4,
     reloadSpeed: 120,
-    rotatespeed: 2,
+    rotateSpeed: 2,
     inaccuracy: 0.05,
     recoilAmount: 8,
     restitution: 0.002,
@@ -20,5 +20,5 @@ const kronos = extend(ItemTurret,"kronos",{
     shootEffect: Fx.none,
     ammoUseEffect: Fx.none,
     smokeEffect: Fx.none
-})
+});
 //I'm still gonna implement ammos only l8er

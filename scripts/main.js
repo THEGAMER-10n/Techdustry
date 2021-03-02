@@ -1,1 +1,1 @@
-require("turrets/kronos/kronos")
+require("turrets/kronos/turret")
