@@ -1,6 +1,6 @@
 //imports
 var calc = require("calculations");
-var ammo = require("kammo");
+var ammo = require("turrets/kronos/kammo");
 //the turret
 const kronos = extend(ItemTurret,"kronos",{
     localizedName: "Kronos",
