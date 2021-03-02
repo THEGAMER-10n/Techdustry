@@ -11,10 +11,11 @@ const kronos = extend(ItemTurret,"kronos",{
     reloadSpeed: 120,
     rotatespeed: 2,
     inaccuracy: 0.05,
-    recoil: 8,
+    recoilAmount: 8,
     restitution: 0.002,
     buildVisibility: buildVisibility.shown,
     requirements: ItemStack.with(Items.copper,999999999),
-    category: Category.turret
+    category: Category.turret,
+    shots: 1,
 })
 //I'm still gonna implement ammos only l8er
