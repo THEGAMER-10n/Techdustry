@@ -20,7 +20,7 @@ fTechium.charge = 0.65
 fTechium.localizedName = "Fabricated Techium";
 fTechium.description = "The fabricated version of techium.";
 
-const sTechium = Item("sTechum");
+const sTechium = Item("sTechium");
 sTechium.cost = 3;
 sTechium.charge = 1;
 sTechium.localizedName = "Techium Fiberglass";

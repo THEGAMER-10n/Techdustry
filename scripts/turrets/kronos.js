@@ -1,8 +1,8 @@
 //imports
-var items = require("items")
+var f = require("functions")
 var stats = require("status");
 //ammo
-const techiumAmmo = extend(BasicBulletType,"techium",{
+const techiumAmmo = extend(BasicBulletType,"techiumAmmo",{
     damage: 900,
     speed: 5,
     lifetime: 96,
@@ -11,6 +11,15 @@ const techiumAmmo = extend(BasicBulletType,"techium",{
     status: stats.shortCircuit,
     statusDuration: 60
 });
+const pTechiumAmmo = extend(BasicBulletType,"pTechiumAmmo",{
+    damage: 950,
+    speed: 5,
+    lifetime: 100,
+    pierce: true,
+    pierceCap: 5,
+    status: stats.shortCircuit,
+    statusDuration: 120
+})
 //actual turret itself
 const kronos = extend(ItemTurret,"kronos",{
     localizedName: "Kronos",
@@ -30,5 +39,6 @@ const kronos = extend(ItemTurret,"kronos",{
     ammoPerShot: 2
 });
 kronos.ammo = ItemStack.with(
-    items.techium,techiumAmmo
+    f.findItem("techium"),techiumAmmo,
+    f.findItem("pTechium"),pTechiumAmmo
 )
