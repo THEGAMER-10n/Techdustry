@@ -1,5 +1,4 @@
 //imports
-var calc = require("calculations");
 var ammo = require("turrets/kronos/kammo");
 var items = require("items")
 //the turret
