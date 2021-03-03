@@ -1,6 +1,6 @@
 //imports
-require("functions")
-require("status");
+var func = require("functions")
+var stats = require("status");
 //actual turret itself
 const kronos = extend(ItemTurret,"kronos",{
     localizedName: "Kronos",
@@ -15,7 +15,10 @@ const kronos = extend(ItemTurret,"kronos",{
     restitution: 0.002,
     buildVisibility: BuildVisibility.shown,
     requirements: ItemStack.with(
-        f.findItem("techium"),1000
+        func.findItem("techium"),980,
+        func.findItem("pTechium"),560,
+        Items.thorium,870,
+        Items.titanium,975
     ),
     category: Category.turret,
     maxAmmo: 10,
@@ -28,7 +31,7 @@ const techiumAmmo = extend(BasicBulletType,"techiumAmmo",{
     lifetime: 96,
     pierce: true,
     pierceCap: 3,
-    status: shortCircuit,
+    status: stats.shortCircuit,
     statusDuration: 60
 });
 const pTechiumAmmo = extend(BasicBulletType,"pTechiumAmmo",{
@@ -37,8 +40,11 @@ const pTechiumAmmo = extend(BasicBulletType,"pTechiumAmmo",{
     lifetime: 100,
     pierce: true,
     pierceCap: 5,
-    status: shortCircuit,
+    status: stats.shortCircuit,
     statusDuration: 120
-})
+});
 
-kronos.ammo(f.findItem("techium"),techiumAmmo,f.findItem("pTechium"),pTechiumAmmo)
+kronos.ammo(
+    func.findItem("techium"),techiumAmmo,
+    func.findItem("pTechium"),pTechiumAmmo
+);
