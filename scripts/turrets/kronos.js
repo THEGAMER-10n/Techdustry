@@ -33,18 +33,9 @@ const kronos = extend(ItemTurret,"kronos",{
     recoilAmount: 8,
     restitution: 0.002,
     buildVisibility: BuildVisibility.shown,
-    requirements: ItemStack.with(
-        f.findItem("techium"),350,
-        f.findItem("pTechium"),900,
-        Items.coper,875,
-        Items.thorium,760,
-        Items.titanium,675
-    ),
+    requirements: ItemStack.with(f.findItem("techium"),350,f.findItem("pTechium"),900,Items.coper,875,Items.thorium,760,Items.titanium,675),
     category: Category.turret,
     maxAmmo: 10,
     ammoPerShot: 2
 });
-kronos.ammo(
-    f.findItem("techium"),techiumAmmo,
-    f.findItem("pTechium"),pTechiumAmmo
-)
+kronos.ammo(f.findItem("techium"),techiumAmmo,f.findItem("pTechium"),pTechiumAmmo)
