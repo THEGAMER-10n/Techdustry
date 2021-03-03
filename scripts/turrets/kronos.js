@@ -1,7 +1,17 @@
 //imports
-var ammo = require("turrets/kronos/kammo");
 var items = require("items")
-//the turret
+var stats = require("status");
+//ammo
+const techium = extend(BasicBulletType,"techium",{
+    damage: 900,
+    speed: 5,
+    lifetime: 96,
+    pierce: true,
+    pierceCap: 3,
+    status: stats.shortCircuit,
+    statusDuration: 60
+});
+//actual turret itself
 const kronos = extend(ItemTurret,"kronos",{
     localizedName: "Kronos",
     description: "TO-DO",
@@ -14,12 +24,11 @@ const kronos = extend(ItemTurret,"kronos",{
     recoilAmount: 8,
     restitution: 0.002,
     buildVisibility: BuildVisibility.shown,
-    requirements: ItemStack.with(Items.copper),
+    requirements: ItemStack.with(Items.copper,10),
     category: Category.turret,
     maxAmmo: 10,
     ammoPerShot: 2
 });
-//ammo
 kronos.ammo = ItemStack.with(
     items.techium,ammo.techium
 )

@@ -1,2 +1,2 @@
-require("turrets/kronos/turret")
+require("turrets/kronos")
 require("items")
