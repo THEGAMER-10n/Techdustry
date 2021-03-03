@@ -2,7 +2,7 @@
 var items = require("items")
 var stats = require("status");
 //ammo
-const techium = extend(BasicBulletType,"techium",{
+const techiumAmmo = extend(BasicBulletType,"techium",{
     damage: 900,
     speed: 5,
     lifetime: 96,
@@ -30,5 +30,5 @@ const kronos = extend(ItemTurret,"kronos",{
     ammoPerShot: 2
 });
 kronos.ammo = ItemStack.with(
-    items.techium,ammo.techium
+    items.techium,techiumAmmo
 )
