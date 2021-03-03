@@ -48,6 +48,6 @@ const pTechiumAmmo = extend(BasicBulletType,{
 });
 
 kronos.ammo(
-    func.findItem("techium"),TechiumAmmo,
+    func.findItem("techium"),techiumAmmo,
     func.findItem("pTechium"), pTechiumAmmo
 );
