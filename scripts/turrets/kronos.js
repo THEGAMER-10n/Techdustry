@@ -1,6 +1,6 @@
 //imports
-var func = require("functions")
-var stats = require("status");
+const func = require("functions")
+const stats = require("status");
 //actual turret itself
 const kronos = extend(ItemTurret,"kronos",{
     localizedName: "Kronos",
