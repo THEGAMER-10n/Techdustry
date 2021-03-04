@@ -2,7 +2,6 @@
 const stats = require("status");
 const i = require("items");
 //ohNo
-/*
 const techiumAmmo = extend(BasicBulletType,{
     damage: 900,
     speed: 5,
@@ -47,6 +46,6 @@ const kronos = extend(ItemTurret,"kronos",{
 });
 
 kronos.ammo(
-    i.techium,techiumAmmo,
-    i.pTechium,pTechiumAmmo
-);*/
+    techium,techiumAmmo,
+    pTechium,pTechiumAmmo
+);
