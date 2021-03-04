@@ -1,6 +1,25 @@
 //imports
 const stats = require("status");
-const i = require("items")
+const i = require("items");
+//ohNo
+const techiumAmmo = extend(BasicBulletType,{
+    damage: 900,
+    speed: 5,
+    lifetime: 100,
+    pierce: true,
+    pierceCap: 3,
+    status: stats.shortCircuit,
+    statusDuration: 60
+});
+const pTechiumAmmo = extend(BasicBulletType,{
+    damage: 950,
+    speed: 5,
+    lifetime: 100,
+    pierce: true,
+    pierceCap: 5,
+    status: stats.shortCircuit,
+    statusDuration: 120
+});
 //actual turret itself
 const kronos = extend(ItemTurret,"kronos",{
     localizedName: "Kronos",
@@ -26,26 +45,7 @@ const kronos = extend(ItemTurret,"kronos",{
     ammoPerShot: 2
 });
 
-const techiumAmmo = extend(BasicBulletType,{
-    damage: 900,
-    speed: 5,
-    lifetime: 100,
-    pierce: true,
-    pierceCap: 3,
-    status: stats.shortCircuit,
-    statusDuration: 60
-});
-const pTechiumAmmo = extend(BasicBulletType,{
-    damage: 950,
-    speed: 5,
-    lifetime: 100,
-    pierce: true,
-    pierceCap: 5,
-    status: stats.shortCircuit,
-    statusDuration: 120
-});
-
-kronos.ammoTypes(
+kronos.ammo(
     i.techium,techiumAmmo,
     i.pTechium,pTechiumAmmo
 );
