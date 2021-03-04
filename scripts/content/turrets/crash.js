@@ -29,7 +29,7 @@ const crash = extend(ItemTurret,"crash",{
         Items.lead,500
     ),
     category: Category.turret,
-    buildVisibility: BulidVisibility.shown
+    buildVisibility: BuildVisibility.shown
 });
 
 crash.ammo(
