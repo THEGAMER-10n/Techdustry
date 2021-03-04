@@ -1,6 +1,6 @@
 //imports
-const stats = require("techdustry/stats");
-const i = require("techdustry/items");
+const stats = require("scripts/stats");
+const i = require("scripts/items");
 //ohNo
 const techiumAmmo = extend(BasicBulletType,{
     damage: 900,
