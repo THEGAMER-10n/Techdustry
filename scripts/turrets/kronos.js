@@ -1,6 +1,6 @@
 //imports
-const stats = require("stats");
-const i = require("items");
+const stats = require("techdustry/stats");
+const i = require("techdustry/items");
 //ohNo
 const techiumAmmo = extend(BasicBulletType,{
     damage: 900,
@@ -46,6 +46,6 @@ const kronos = extend(ItemTurret,"kronos",{
 });
 
 kronos.ammo(
-    techium,techiumAmmo,
-    pTechium,pTechiumAmmo
+    i.techium,techiumAmmo,
+    i.pTechium,pTechiumAmmo
 );
