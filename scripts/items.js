@@ -1,3 +1,4 @@
+//items
 const techium = Item("techium");
 techium.cost = 1;
 techium.radioactivity = 0.75;
@@ -25,3 +26,11 @@ sTechium.cost = 3;
 sTechium.charge = 1;
 sTechium.localizedName = "Techium Fiberglass";
 sTechium.description = "A processed techium that has a very high conduction and small electrical resistance. It is also a very strong material.";
+
+//exporting the Items
+module.exports = {
+    techium : techium,
+    pTechum : pTechium,
+    fTechium : fTechium,
+    sTechium : sTechium
+};
