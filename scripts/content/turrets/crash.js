@@ -14,13 +14,16 @@ const ammo2 = extend(BasicBulletType,{
 })
 
 const crash = extend(ItemTurret,"crash",{
+    localizedName: "Crash",
+    description: "A burst turret made for frontline defence.",
     range: 320,
     health: 1350,
     size: 3,
+    reloadTime: 20,
     rotateSpeed: 1.5,
     shootCone: 15,
     shots: 5,
-    burstSpacing: 60,
+    burstSpacing: 1,
     inaccuracy: 1,
     requirements: ItemStack.with(
         f.findItem("pTechium"),90,
