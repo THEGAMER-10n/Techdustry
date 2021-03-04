@@ -45,7 +45,7 @@ const pTechiumAmmo = extend(BasicBulletType,{
     statusDuration: 120
 });
 
-kronos.ammo(
+kronos.ammoTypes(
     i.techium,techiumAmmo,
     i.pTechium,pTechiumAmmo
 );
