@@ -1,7 +1,7 @@
 const shortCircuit = extend(StatusEffect,"sC",{
-    damage = Math.round(Math.random()*10),
+    damage = Math.round(Math.random(1)*10),
     armorMultiplier = 0.5
-})
+});
 
 const kronos1 = extend(StatusEffect,"k1",{
     update(unit,time){
@@ -11,12 +11,15 @@ const kronos1 = extend(StatusEffect,"k1",{
             this.armorMultiplier = 0.5
         }else{
             if(unit.health > 1000000000){
-                this.damage = unit.health*0.10
+                this.damage = unit.health*0.10,
+                this.speedMultiplier = 0
                 if(time >= 2){
-                    this.damage = Infinity
+                    unit.kill(),
+                    print("Too overpowered")//I hate overpowered units
                 }
             }else{
-                this.damage = 10
+                this.damage = 10,
+                this.speedMultiplier = 0
             }
         }
     }

@@ -4,7 +4,7 @@ const s = require("stats");
 const ammo1 = extend(BasicBulletType,{
     damage: 5400,
     speed: 5,
-    //lifetime: 
+    lifetime: 130,
     pierce: true,
     pierceCap: 10,
     homingRange: 20,

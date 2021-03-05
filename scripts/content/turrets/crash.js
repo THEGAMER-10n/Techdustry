@@ -1,4 +1,5 @@
 const f = require("func");
+const s = require("stats");
 
 const ammo1 = extend(BasicBulletType,{
     damage: 200,
@@ -11,6 +12,13 @@ const ammo2 = extend(BasicBulletType,{
     damage: 150,
     speed: 6,
     lifetime: 60
+})
+const ammo3 = extend(BasicBulletType,{
+    damage: 100,
+    speed: 5,
+    lifetime: 75,
+    effect: s.shortCircuit,
+    effectDuration: 600
 })
 
 const crash = extend(ItemTurret,"crash",{
@@ -37,5 +45,6 @@ const crash = extend(ItemTurret,"crash",{
 
 crash.ammo(
     f.findItem("techium"),ammo1,
-    Items.silicon,ammo2
+    Items.silicon,ammo2,
+    f.dindItem("pTechium"),ammo3
 )
