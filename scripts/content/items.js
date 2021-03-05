@@ -18,3 +18,10 @@ const sTechium = Item("sTechium");
 sTechium.localizedName = "Techium Fiberglass";
 sTechium.description = "A hard, conductive material";
 fTechium.charge = 1;
+
+module.exports = {
+    techium:techium,
+    pTechium:pTechium,
+    fTechium:fTechium,
+    sTechium,sTechium
+}

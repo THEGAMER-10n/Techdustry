@@ -1,14 +1,14 @@
 const f = require("func");
 
 const ammo1 = extend(BasicBulletType,{
-    damage: 540,
+    damage: 200,
     speed: 5,
     lifetime: 75,
     pierce: true,
     pierceCap: 3,
 });
 const ammo2 = extend(BasicBulletType,{
-    damage: 500,
+    damage: 150,
     speed: 6,
     lifetime: 60
 })
@@ -20,11 +20,11 @@ const crash = extend(ItemTurret,"crash",{
     health: 1350,
     size: 3,
     reloadTime: 20,
-    rotateSpeed: 1.5,
+    rotateSpeed: 5,
     shootCone: 15,
     shots: 5,
     burstSpacing: 1,
-    inaccuracy: 1,
+    inaccuracy: 5,
     requirements: ItemStack.with(
         f.findItem("pTechium"),90,
         Items.titanium,450,

@@ -22,6 +22,8 @@ const kronos = extend(ItemTurret,"kronos",{
     rotateSpeed: 15,
     shootCone: 20,
     shootShake: 1,
+    maxAmmo: 10,
+    ammoPerShot: 10,
     requirements: ItemStack.with(
         f.findItem("pTechium"),5500,
         f.findItem("fTechium"),3340,
@@ -38,5 +40,5 @@ const kronos = extend(ItemTurret,"kronos",{
 });
 
 kronos.ammo(
-    f.findItem("pTechium"),ammo1
+    f.findItem("sTechium"),ammo1
 );
