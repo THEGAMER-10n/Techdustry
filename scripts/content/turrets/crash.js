@@ -46,5 +46,5 @@ const crash = extend(ItemTurret,"crash",{
 crash.ammo(
     f.findItem("techium"),ammo1,
     Items.silicon,ammo2,
-    f.dindItem("pTechium"),ammo3
+    f.findItem("pTechium"),ammo3
 )
