@@ -9,7 +9,7 @@ const ammo1 = extend(BasicBulletType,{
     pierceCap: 10,
     homingRange: 20,
     homingPower: 0.5,
-    effect: s.shortCircuit,
+    effect: s.kronos1,
     effectDuration: 600
 });
 

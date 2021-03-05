@@ -23,5 +23,5 @@ module.exports = {
     techium:techium,
     pTechium:pTechium,
     fTechium:fTechium,
-    sTechium,sTechium
+    sTechium:sTechium
 }
