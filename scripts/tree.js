@@ -14,3 +14,7 @@ const node = (parent, contentType, requirements, objectives) => {
         tnode.objectives.addAll(objectives);
     };
 };
+
+module.exports = {
+    node: node
+};

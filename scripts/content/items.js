@@ -3,6 +3,7 @@ const techium = Item("techium");
 techium.localizedName = "Techium";
 techium.description = "The basis of all techium technologies. Must be refined to be useful.";
 techium.charge = 0.15;
+techium.hardness = 3;
 
 const pTechium = Item("pTechium");
 pTechium.localizedName = "Purified techium";

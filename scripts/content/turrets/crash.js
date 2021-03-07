@@ -2,19 +2,19 @@ const f = require("func");
 const s = require("stats");
 
 const ammo1 = extend(BasicBulletType,{
-    damage: 200,
+    damage: 75,
     speed: 5,
     lifetime: 75,
     pierce: true,
     pierceCap: 3,
 });
 const ammo2 = extend(BasicBulletType,{
-    damage: 150,
+    damage: 60,
     speed: 6,
     lifetime: 60
 })
 const ammo3 = extend(BasicBulletType,{
-    damage: 100,
+    damage: 50,
     speed: 5,
     lifetime: 75,
     effect: s.shortCircuit,
@@ -27,11 +27,11 @@ const crash = extend(ItemTurret,"crash",{
     range: 320,
     health: 1350,
     size: 3,
-    reloadTime: 20,
+    reloadTime: 60,
     rotateSpeed: 5,
     shootCone: 15,
     shots: 5,
-    burstSpacing: 1,
+    burstSpacing: 10,
     inaccuracy: 5,
     requirements: ItemStack.with(
         f.findItem("pTechium"),90,

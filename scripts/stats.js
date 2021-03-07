@@ -11,7 +11,7 @@ const kronos1 = extend(StatusEffect,"k1",{
             this.armorMultiplier = 0.5
         }else{
             if(unit.health > 1000000000){
-                this.damage = unit.health*0.10,
+                this.damage = unit.health*0.20,
                 this.speedMultiplier = 0
                 if(time >= 2){
                     unit.kill(),

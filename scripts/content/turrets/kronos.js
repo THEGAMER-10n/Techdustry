@@ -2,7 +2,7 @@ const f = require("func");
 const s = require("stats");
 
 const ammo1 = extend(BasicBulletType,{
-    damage: 5400,
+    damage: 500,
     speed: 5,
     lifetime: 130,
     pierce: true,
@@ -14,11 +14,12 @@ const ammo1 = extend(BasicBulletType,{
 });
 
 const kronos = extend(ItemTurret,"kronos",{
-    localizedName: "kronos",
+    localizedName: "Kronos",
     description: "A turret that is made for destroying high-level units.",
     range: 640,
     health: 7000,
     size: 4,
+    reloadTime: 300,
     rotateSpeed: 15,
     shootCone: 20,
     shootShake: 1,
