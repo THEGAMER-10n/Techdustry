@@ -1,6 +1,7 @@
 const shortCircuit = extend(StatusEffect,"sC",{
     damage: Math.round(Math.random()*15),
-    armorMultiplier: Math.random*1
+    armorMultiplier: Math.random*1,
+    speedMultiplier: 0.25
 });
 
 const kronos1 = extend(StatusEffect,"k1",{
