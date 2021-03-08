@@ -1,11 +1,11 @@
 const i = require("content/items");
 const c = require("colors")
 
-const weaveEffect = new Effect(
+const weaveEffect = new Effect(25,e => {
     Draw.color(c.fTColor),
     Lines.stroke(e.fout()*2),
     Lines.circle(e.fin()*25)
-)
+})
 
 const fTProd = extend(GenericSmelter,"fTProd",{
     localizedName: "Techium Fabricator",
