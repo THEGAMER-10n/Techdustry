@@ -15,12 +15,11 @@ const fTProd = extend(GenericSmelter,"fTProd",{
     ),
     category: Category.crafting,
     buildVisibility: BuildVisibility.shown,
-    outputItem: new ItemStack(i.fTechium,1)
+    outputItem: new ItemStack(i.fTechium,1),
 });
-
-fTProd.drawWeave()
-
 fTProd.consumes.item(
     i.pTechium, 5
 );
 fTProd.consumes.power(1.6);
+fTProd.drawer = new DrawWeave();
+//fTProd.craftEffect = 
