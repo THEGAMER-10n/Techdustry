@@ -1,4 +1,4 @@
-const f = require("func");
+const i = require("content/items");
 
 const pTProd = extend(GenericCrafter,"pTProd",{
     localizedName: "Techium Purifier",
@@ -13,7 +13,7 @@ const pTProd = extend(GenericCrafter,"pTProd",{
     ),
     category: Category.crafting,
     buildVisibility: BuildVisibility.shown,
-    outputItem: ItemStack.with(f.findItem("pTechium"),1),
+    outputItem: new ItemStack(i.pTechium,1),
     hasPower: true,
     hasItems: true,
     hasLiquids: true,
@@ -21,7 +21,7 @@ const pTProd = extend(GenericCrafter,"pTProd",{
 
 pTProd.consumes.item(
     ItemStack.with(
-        f.findItem("techium"),2
+        i.techium,2
     )
 );
 pTProd.consume.power(
