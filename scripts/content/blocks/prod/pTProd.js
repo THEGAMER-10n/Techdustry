@@ -20,9 +20,7 @@ const pTProd = extend(GenericCrafter,"pTProd",{
 });
 
 pTProd.consumes.item(
-    ItemStack.with(
-        i.techium,2
-    )
+    i.techium,2
 );
 pTProd.consume.power(
     50/60.0
