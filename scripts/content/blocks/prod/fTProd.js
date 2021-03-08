@@ -1,4 +1,4 @@
-const f = require("func");
+const i = require("content/items");
 
 const fTProd = extend(GenericSmelter,"fTProd",{
     localizedName: "Techium Fabricator",
@@ -7,7 +7,7 @@ const fTProd = extend(GenericSmelter,"fTProd",{
     size: 2,
     craftTime: 60,
     requirements: ItemStack.with(
-        f.findItem("pTechium"),150,
+        i.pTechium,150,
         Items.titanium,250,
         Items.thorium,75,
         Items.copper,350,
@@ -15,12 +15,12 @@ const fTProd = extend(GenericSmelter,"fTProd",{
     ),
     category: Category.crafting,
     buildVisibility: BuildVisibility.shown,
-    outputItem: ItemStack.with(f.findItem("fTechium"),1)
+    outputItem: ItemStack.with(i.fTechium,1)
 });
 
 fTProd.drawWeave()
 
 fTProd.consumes.items(ItemStack.with(
-    f.findItem("pTechium"),5
+    i.fTechium,5
 ));
 fTProd.consumes.power(50);

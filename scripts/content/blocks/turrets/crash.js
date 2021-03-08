@@ -1,4 +1,4 @@
-const f = require("func");
+const i = require("content/items");
 const s = require("stats");
 
 const ammo1 = extend(BasicBulletType,{
@@ -34,7 +34,7 @@ const crash = extend(ItemTurret,"crash",{
     burstSpacing: 10,
     inaccuracy: 5,
     requirements: ItemStack.with(
-        f.findItem("pTechium"),90,
+        i.pTechium,90,
         Items.titanium,450,
         Items.thorium,120,
         Items.lead,500
@@ -44,7 +44,7 @@ const crash = extend(ItemTurret,"crash",{
 });
 
 crash.ammo(
-    f.findItem("techium"),ammo1,
+    i.techium,ammo1,
     Items.silicon,ammo2,
-    f.findItem("pTechium"),ammo3
+    i.pTechium,ammo3
 )

@@ -1,4 +1,4 @@
-const f = require("func");
+const i = require("content/items");
 const s = require("stats");
 
 const ammo1 = extend(BasicBulletType,{
@@ -26,9 +26,9 @@ const kronos = extend(ItemTurret,"kronos",{
     maxAmmo: 10,
     ammoPerShot: 10,
     requirements: ItemStack.with(
-        f.findItem("pTechium"),5500,
-        f.findItem("fTechium"),3340,
-        f.findItem("sTechium"),1000,
+        i.pTechium,5500,
+        i.fTechium,3340,
+        i.sTechium,1000,
         Items.surgeAlloy,1300,
         Items.plastanium,1750,
         Items.thorium,2140,
@@ -41,5 +41,5 @@ const kronos = extend(ItemTurret,"kronos",{
 });
 
 kronos.ammo(
-    f.findItem("sTechium"),ammo1
+    i.sTechium,ammo1
 );

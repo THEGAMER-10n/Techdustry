@@ -1,12 +1,12 @@
-const f = require("func");
+const i = require("content/items");
 
 const sTProd = extend(GenericSmelter,"sTProd",{
     health: 1500,
     size: 4,
     outputItem: ItemStack.with(f.findItem("sTechium"),1),
     requirements: Itemstack.with(
-        f.findItem("pTechium"),100,
-        f.findItem("fTechium"),95,
+        i.pTechium,100,
+        i.fTechium,95,
         Items.surgeAlloy,100,
         Items.plastanium,250,
         Items.metaglass,200,
@@ -22,7 +22,7 @@ const sTProd = extend(GenericSmelter,"sTProd",{
 });
 
 sTProd.consumes.items(ItemStack.with(
-    f.findItem("fTechium"),5,
+    i.fTechium,5,
     Items.silicon,50,
     Items.thorium,5,
     Items.lead,25,
