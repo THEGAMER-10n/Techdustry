@@ -4,7 +4,7 @@ const sTProd = extend(GenericSmelter,"sTProd",{
     health: 1500,
     size: 4,
     outputItem: new ItemStack(i.sTechium,1),
-    requirements: Itemstack.with(
+    requirements: ItemStack.with(
         i.pTechium,100,
         i.fTechium,95,
         Items.surgeAlloy,100,
