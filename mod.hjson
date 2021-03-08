@@ -4,6 +4,6 @@ displayName: "Techdustry"
 description: "This mod adds specal additions in terms of technologies. Mod is still unfinished yet the entire mod is already planned inside my head."
 author: "THEGAMER_10n"
 // can be modified
-version: "0.2.1-beta"
+version: "0.2.2-beta"
 minGameVersion: "116"
 hidden: false
