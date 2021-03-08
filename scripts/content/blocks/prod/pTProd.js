@@ -17,13 +17,6 @@ const pTProd = extend(GenericCrafter,"pTProd",{
     hasPower: true,
     hasItems: true,
     hasLiquids: true,
-    consumeItems: ItemsStack.with(
-        f.findItem("techium"),2
-    ),
-    consumePower: 9,
-    consumeLiquid: LiquidStack.with(
-        Liquids.slag,2
-    )
 });
 
 pTProd.consumes.item(
