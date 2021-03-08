@@ -13,7 +13,10 @@ const pProd = extend(GenericCrafter,"pProd",{
     ),
     category: Category.crafting,
     buildVisibility: BuildVisibility.shown,
-    outputItem: ItemStack.with(f.findItem("pTechium"),1)
+    outputItem: ItemStack.with(f.findItem("pTechium"),1),
+    hasPower: true,
+    hasItems: true,
+    hasLiquids: true
 })
 
 pProd.consumes.power(9);
