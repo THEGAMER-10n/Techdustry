@@ -1,10 +1,10 @@
 const i = require("content/items");
+const c = require("colors")
 
-const weaveEffect = new Effect(25,e => {
-    Draw.color(Color.valueOf("#2c2771")),
-    Lines.stroke(e.fout()*2),
-    Lines.circle(e.fin()*25)
-})
+const weaveEffect = new Effect(30, e => {
+    Lines.stroke(e.fin()*3);
+    Lines.circle(e.x,e.y,e.fout()*15)
+});
 
 const fTProd = extend(GenericSmelter,"fTProd",{
     localizedName: "Techium Fabricator",
@@ -27,7 +27,5 @@ fTProd.consumes.item(
     i.pTechium, 5
 );
 fTProd.consumes.power(1.6);
-
-const fabrication = new Effect
 fTProd.drawer = new DrawWeave();
-fTProd.craftEffect = weaveEffect
+fTProd.craftEffect = weaveEffect;
