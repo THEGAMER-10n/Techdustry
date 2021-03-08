@@ -23,8 +23,8 @@ pTProd.consumes.item(
     i.techium,2
 );
 pTProd.consume.power(
-    50/60.0
+    0.80
 );
 pTProd.consume.liquid(
-    Liquids.slag,40/60.0
+    Liquids.slag, 0.70
 );

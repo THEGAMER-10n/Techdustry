@@ -3,7 +3,7 @@ const i = require("content/items");
 const sTProd = extend(GenericSmelter,"sTProd",{
     health: 1500,
     size: 4,
-    outputItem: ItemStack.with(f.findItem("sTechium"),1),
+    outputItem: new ItemStack(f.findItem("sTechium"),1),
     requirements: Itemstack.with(
         i.pTechium,100,
         i.fTechium,95,
@@ -30,4 +30,4 @@ sTProd.consumes.items(ItemStack.with(
     Items.surgeAlloy,2
 ));
 
-sTProd.consumes.power(25);
+sTProd.consumes.power(1);
