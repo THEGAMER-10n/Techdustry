@@ -22,9 +22,9 @@ const pTProd = extend(GenericCrafter,"pTProd",{
 pTProd.consumes.item(
     i.techium,2
 );
-pTProd.consume.power(
+pTProd.consumes.power(
     0.80
 );
-pTProd.consume.liquid(
+pTProd.consumes.liquid(
     Liquids.slag, 0.70
 );
