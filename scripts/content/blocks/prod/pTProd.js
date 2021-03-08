@@ -16,10 +16,10 @@ const pProd = extend(GenericCrafter,"pProd",{
     outputItem: ItemStack.with(f.findItem("pTechium"),1)
 })
 
-pProd.consumes.power(8.5);
+pProd.consumes.power(9);
 pProd.consumes.items(ItemStack.with(
     f.findItem("techium"),2
 ));
-pProd.consumes.liquid(LiquidStack.with(
-    Liquids.slag,640
+pProd.consumes.liquids(LiquidStack.with(
+    Liquids.slag,4
 ));
