@@ -3,7 +3,7 @@ const i = require("content/items");
 const sTProd = extend(GenericSmelter,"sTProd",{
     health: 1500,
     size: 4,
-    outputItem: new ItemStack(f.findItem("sTechium"),1),
+    outputItem: new ItemStack(i.sTechium,1),
     requirements: Itemstack.with(
         i.pTechium,100,
         i.fTechium,95,
