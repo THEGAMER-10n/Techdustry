@@ -6,7 +6,7 @@ const shortCircuit = extend(StatusEffect,"sC",{
 
 const kronos1 = extend(StatusEffect,"k1",{
     update(unit,time){
-        if(time > 10){
+        if(time < 10){
             this.speedMultiplier = 0,
             this.damage = 5,
             this.armorMultiplier = 0.5

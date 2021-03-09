@@ -3,7 +3,7 @@ const c = require("colors")
 
 const weaveEffect = new Effect(30, e => {
     Lines.stroke(e.fin()*3);
-    Lines.circle(e.x,e.y,e.fout()*15)
+    Lines.circle(e.x,e.y,e.fout()*100)
 });
 
 const fTProd = extend(GenericSmelter,"fTProd",{
