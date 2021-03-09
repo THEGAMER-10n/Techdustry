@@ -1,7 +1,8 @@
 const i = require("content/items");
 const c = require("colors")
 
-const weaveEffect = new Effect(30, e => {
+const weaveEffect = new Effect(60, e => {
+    Draw.color(c.pTColor)
     Lines.stroke(e.fin()*3);
     Lines.circle(e.x,e.y,e.fout()*100)
 });
