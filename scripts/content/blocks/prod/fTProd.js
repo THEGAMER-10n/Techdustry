@@ -2,7 +2,7 @@ const i = require("content/items");
 const c = require("colors")
 
 const weaveEffect = new Effect(30, e => {
-    Lines.stroke(e.fin()*3);
+    Lines.stroke(e.fin()*3),
     Lines.circle(e.x,e.y,e.fout()*15)
 });
 
