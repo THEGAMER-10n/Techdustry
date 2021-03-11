@@ -1,5 +1,5 @@
-const i = require("content/items");
-const s = require("stats");
+const i = require("items");
+const s = require("libs/stats");
 
 const kronosShoot = new Effect(30,e => {
     draw.stroke(e.fin()*4);

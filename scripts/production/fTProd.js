@@ -1,5 +1,5 @@
-const i = require("content/items");
-const c = require("colors");
+const i = require("items");
+const c = require("libs/colors");
 
 const weaveEffect = new Effect(60, e => {
     Draw.color(Color.grey);

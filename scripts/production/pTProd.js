@@ -1,4 +1,4 @@
-const i = require("content/items");
+const i = require("items");
 
 const pTProd = extend(GenericCrafter,"pTProd",{
     localizedName: "Techium Purifier",

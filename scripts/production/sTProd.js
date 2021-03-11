@@ -1,4 +1,4 @@
-const i = require("content/items");
+const i = require("items");
 
 const sTProd = extend(GenericSmelter,"sTProd",{
     health: 1500,

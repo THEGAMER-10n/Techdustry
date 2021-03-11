@@ -1,5 +1,5 @@
-const i = require("content/items");
-const s = require("stats");
+const i = require("items");
+const s = require("libs/stats");
 
 const ammo1 = extend(BasicBulletType,{
     damage: 75,
