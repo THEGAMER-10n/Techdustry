@@ -18,7 +18,9 @@ const sTProd = extend(GenericSmelter,"sTProd",{
     ),
     category: Category.crafting,
     buildVisibity: BuildVisibility.shown,
-    craftTime: 600
+    craftTime: 600,
+    hasPower: true,
+    hasItems: true
 });
 
 sTProd.consumes.items(ItemStack.with(

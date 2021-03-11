@@ -27,11 +27,11 @@ const crash = extend(ItemTurret,"crash",{
     range: 320,
     health: 1350,
     size: 3,
-    reloadTime: 60,
+    reloadTime: 45,
     rotateSpeed: 5,
     shootCone: 15,
     shots: 5,
-    burstSpacing: 10,
+    burstSpacing: 5,
     inaccuracy: 5,
     requirements: ItemStack.with(
         i.pTechium,90,

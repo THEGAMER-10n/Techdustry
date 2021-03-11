@@ -1,5 +1,5 @@
 # Techdustry
-__Current version__: 0.1f-beta
+__Current version__: 0.2.4-beta
 
 ## What is this mod?
 This mod adds different technologies to the game, this expands the mid- and end-game arsenal of turrets and materials. This also adds extensive change on end-game progress and a coming campaign addition.

@@ -14,7 +14,7 @@ const node = (parent, contentType, requirements, objectives) => {
         tnode.objectives.addAll(objectives);
     };
 };
-
+//casually and heartlessly stolen from Gdef/substructure
 module.exports = {
     node: node
 };

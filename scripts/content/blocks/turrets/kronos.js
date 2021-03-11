@@ -1,6 +1,10 @@
 const i = require("content/items");
 const s = require("stats");
 
+const kronosShoot = new Effect(30,e => {
+    draw.stroke(e.fin()*4);
+})
+
 const ammo1 = extend(BasicBulletType,{
     damage: 500,
     speed: 5,
@@ -9,7 +13,7 @@ const ammo1 = extend(BasicBulletType,{
     pierceCap: 10,
     homingRange: 20,
     homingPower: 0.5,
-    effect: s.kronos1,
+    effect: s.kronosEffect,
     effectDuration: 600
 });
 
