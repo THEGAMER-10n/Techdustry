@@ -1,4 +1,4 @@
-const i = require("content/items");
+const i = require("items");
 
 const tOre = extend(OreBlock,"tOre",{
     itemDrop: i.techium,
